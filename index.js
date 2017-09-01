@@ -36,6 +36,11 @@ async function validateForm(req) {
   if( !(req.body.name && req.body.email && req.body.message) ) {
     return false
   }
+
+  if(!req.body.email.match(/^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i)) {
+    return false
+  }
+
   var isValid;
   await recaptcha.validateRequest(req)
   .then(function(){
