@@ -1,0 +1,13 @@
+{
+  "name": "webformTelegramHook",
+  "version": "0.1.0",
+  "description": "Telegram hook for webform",
+  "main": "index.js",
+  "author": "Claudio4 <me@claudio4.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "recaptcha2": "^1.3.2"
+  }
+}
