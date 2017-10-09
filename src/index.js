@@ -21,7 +21,7 @@ app.post("/", jsonParser, (req, res) => {
   verify(req.body.name, req.body.email, req.body.message, req.body["g-recaptcha-response"])
   .then(result => {
     telegram.sendMessage(
-      telegram.fotmatMessage(
+      telegram.formatMessage(
         req.body.name,
         req.body.email,
         req.body.message

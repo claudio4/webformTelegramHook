@@ -1,4 +1,4 @@
 module.exports = {
-  fotmatMessage: require('./format-message'),
+  formatMessage: require('./format-message'),
   sendMessage: require('./send-message')
 }
