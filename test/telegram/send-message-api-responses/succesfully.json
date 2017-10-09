@@ -1,0 +1,35 @@
+{
+  "code": 200,
+  "body": {
+    "ok": true,
+    "result": {
+      "message_id": 298,
+      "from": {
+        "id": 0,
+        "is_bot": true,
+        "first_name": "Testbot",
+        "username": "TestBot"
+      },
+      "chat": {
+        "id": -0,
+        "title": "Bot test",
+        "type": "group",
+        "all_members_are_administrators": true
+      },
+      "date": 0,
+      "text": "🔹 <b>Name</b>: name\\n🔹 <b>Email</b>: <a href=\"mailto:email@domain.com\">email@domain.com</a>\\n\\n💬 <b>Message</b>:\\ntest message",
+      "entities": [
+        {
+          "offset": 48,
+          "length": 23,
+          "type": "url"
+        },
+        {
+          "offset": 73,
+          "length": 16,
+          "type": "email"
+        }
+      ]
+    }
+  }
+}

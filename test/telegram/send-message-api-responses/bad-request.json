@@ -1,0 +1,8 @@
+{
+  "code": 400,
+  "body": {
+    "ok": false,
+    "error_code": 400,
+    "description": "Bad Request: chat not found"
+  }
+}
