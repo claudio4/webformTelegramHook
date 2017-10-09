@@ -1,0 +1,9 @@
+{
+  "code": 200,
+  "body": {
+    "success": false,
+    "challenge_ts": 0,
+    "hostname": "localhost",
+    "error-codes": ["unknown-error-code"]
+  }
+}

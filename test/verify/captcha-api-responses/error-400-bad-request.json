@@ -1,0 +1,8 @@
+{
+  "code": 400,
+  "body": {
+    "success": false,
+    "challenge_ts": 0,
+    "hostname": "localhost"
+  }
+}
