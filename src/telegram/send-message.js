@@ -1,6 +1,6 @@
 const request = require('request-promise-native');
 
-const config = require('../../config.js');
+const config = require('../config-loader');
 
 const BASEURL = `https://api.telegram.org/bot${config.botToken}/sendMessage`;
 

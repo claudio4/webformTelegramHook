@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "scripts": {
     "start": "node src/index.js",
-    "test": "mocha ./test/**/*.spec.js"
+    "test": "mocha --require test/mocha.env.js ./test/**/*.spec.js"
   },
   "description": "Telegram hook for webform",
   "main": "index.js",

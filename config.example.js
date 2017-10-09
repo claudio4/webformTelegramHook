@@ -7,7 +7,7 @@ module.exports = {
       origin: "http://example.com"
     }
   },
-  reCaptchaSecretKey: '',
-  botToken: '',
-  chatId: ''
+  reCaptchaSecretKey: '<Your Recaptcha secret>',
+  botToken: '<Your Telegram bot token>',
+  chatId: '<Your chat id in Telegram>'
 }

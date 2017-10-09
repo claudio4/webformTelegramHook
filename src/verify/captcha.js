@@ -1,6 +1,6 @@
 const request = require('request-promise-native');
 
-const config = require('../../config.js');
+const config = require('../config-loader');
 
 const BASEURL = "https://www.google.com/recaptcha/api/siteverify";
 

@@ -3,7 +3,7 @@ const express   = require('express'),
 
 const telegram  = require('./telegram');
 const verify    = require('./verify');
-const config    = require('../config.js');
+const config    = require('./config-loader');
 
 const app = new express();
 const jsonParser = bodyParser.json();
