@@ -33,7 +33,7 @@ module.exports = function(requestToken) {
       }
     })
     .catch(err => {
-      console.error("Error with a request to Google recaptcha", err);
+      console.error("Error with a request to Google recaptcha", err.message);
       return reject("Error while connecting with Google recaptcha");
     })
   })

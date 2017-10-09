@@ -28,7 +28,7 @@ module.exports = function(message) {
       return reject(false);
     })
     .catch(err => {
-      console.error("The telegram API return the following error:", err.response);
+      console.error("The telegram API return the following error:", err.response.body);
       return reject(false);
     })
   })
